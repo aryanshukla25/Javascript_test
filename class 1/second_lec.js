@@ -6,3 +6,6 @@ image.png
 //Javascript
 //Nodejs
 //Bun
+
+//HTTP Server : A protocol defined for machines to communicate, front and backend
+
