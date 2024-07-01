@@ -11,5 +11,6 @@ function kiratReadFile(){
 function onDone(data){
     console.log(data)
 }
+//promise
 
 kiratReadFile().then(onDone);
