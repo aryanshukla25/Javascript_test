@@ -14,3 +14,5 @@ function onDone(data){
 //promisi
 
 kiratReadFile().then(onDone);
+
+// Promise when resolved has to be returned and this function when returned can be used by another function
