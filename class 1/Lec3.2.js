@@ -27,7 +27,7 @@ function userExists(username,password){
     for (let i=0;i<ALL_USERS.length();i++){
 
 
-        if (ALL_USERS[i].username == username and ALL_USERS[i].password == password){
+        if (ALL_USERS[i].username == username && ALL_USERS[i].password == password){
             userExist=true;
         }
         
