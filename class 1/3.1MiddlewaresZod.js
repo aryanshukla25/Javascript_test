@@ -122,6 +122,24 @@ app.get(){
 --------------------------------------------------------------------------------------------------
 
 app.use()
+app.use(express.json())--->yeh body parser hai sirf body pe lgta not headers as u dont know whats in body
 
 iska istemal tab krte hai jab by default kisi route pe koi middleware lagana padta hai
+
+Q. Find the avg time your server is taking to handle requests
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+const express = require ("express")
+const app = express();
+
+app.use(express.json());
+
+app.post("/endpoint",function(req,res){
+    const kidney = req.body,kidneys;
+    const kidneyLength = kidneys.length;
+
+    res.send("You have " + kidneyLength + "kidneys ")
+})
+
 
