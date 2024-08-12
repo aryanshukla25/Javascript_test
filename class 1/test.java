@@ -6,5 +6,6 @@ class test{
      int b= 20;
      int c = 30;
      int d =300;
+     int e =1;
     }
 }
